@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Lumen</title>
+
+    <!-- Pas de changement d'échelle pour les navigateurs de mobile-->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!-- Mode webapp activé pour les navigateurs compatibles-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script defer src='daytime.js'></script>
+    <script defer src='app.js'></script>
+  </head>
+
+  <body>
+    <div class='card'>
+      <input id="daytime" class='slider slider--daytime'   type='range' value='1000' max='1000' min='0' step='1' disabled>
+    </div>
+    <div class='card'>
+      <input id="color-red"   class='slider slider--red'     type='range' value='0' max='255' min='0' step='1' disabled>
+      <input id="color-green" class='slider slider--green'   type='range' value='64' max='255' min='0' step='1' disabled>
+      <input id="color-blue"  class='slider slider--blue'    type='range' value='128' max='255' min='0' step='1' disabled>
+      <input id="color-white" class='slider slider--yellow'  type='range' value='255' max='255' min='0' step='1' disabled>
+    </div>
+  </body>
+</html>
