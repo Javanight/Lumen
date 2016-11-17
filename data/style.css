@@ -165,5 +165,5 @@ body {
 .slider.slider--black::-webkit-slider-runnable-track { background: #000; }
 .slider.slider--black::-webkit-slider-thumb { background: #555; }
 
-.slider.slider--daytime::-webkit-slider-runnable-track { background: #FA0; background: -webkit-linear-gradient(left, #000, #06A, #FA0, #fff); }
+.slider.slider--daytime::-webkit-slider-runnable-track { background: #FA0; background: -webkit-linear-gradient(left, #000, #06A, #ff9d00, #ebef91, #fff); }
 .slider.slider--daytime::-webkit-slider-thumb { background: #06A; }
