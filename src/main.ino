@@ -74,8 +74,8 @@ const int NUM_OF_SENSORS = 0;
 
 #define NUM_PIXELS 240
 Adafruit_NeoPixel pixels(NUM_PIXELS, D4, NEO_GRBW | NEO_KHZ800);
-int daytime                         = 1000;
-int colorComponents[]               = {255, 175, 180, 255};
+int daytime                         = 750;
+int colorComponents[]               = {255, 149, 127, 255};
 const int NUM_OF_COLOR_COMPONENT    = sizeof(colorComponents)/sizeof(int);
 
 

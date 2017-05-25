@@ -1,7 +1,14 @@
+html, body { height: 100%; }
+
 body {
-  background: #ccc;
+  background: #6395a8;
+  background: -webkit-linear-gradient(top left, #6395a8, #6f8452);
+  background: -moz-linear-gradient(top left, #41b3ce, #cef575);
+  background-attachment: fixed;
   color: #333;
   margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
 }
 
 
