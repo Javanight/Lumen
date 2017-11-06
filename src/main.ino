@@ -72,7 +72,6 @@ int sensorValue          = 0;
 const int NUM_OF_SENSORS = 0;
 
 
-#define NUM_PIXELS 240
 Adafruit_NeoPixel pixels(NUM_PIXELS, D4, NEO_GRBW | NEO_KHZ800);
 int daytime                         = 750;
 int colorComponents[]               = {255, 149, 127, 255};
@@ -254,6 +253,7 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t lenght
       }
       break;
 
+    case WStype_BIN:
     case WStype_TEXT:
       {
         if (numberOfHandlingThisSecond < HANDLING_PER_SECOND) {

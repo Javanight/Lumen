@@ -3,7 +3,7 @@ var debugMode = true;
 var map     = Array.prototype.map;
 var forEach = Array.prototype.forEach;
 
-var requestPerSecond  = 50;
+var requestPerSecond  = 20;
 var isReadyToRequest  = false;
 var isCommandDirty    = false;
 var inputRange        = document.querySelectorAll('input[type=range]');

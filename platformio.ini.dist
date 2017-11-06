@@ -25,5 +25,5 @@ board = d1_mini
 ; set frequency to 160MHz
 board_f_cpu = 160000000L
 
-upload_port = COM10
+upload_port = 
 upload_speed = 921600
